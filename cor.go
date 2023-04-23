@@ -55,7 +55,7 @@ const (
 // const Nenhum = ""
 
 func Pintar(texto, cor string) string {
-	return abertura + cor + fechamento + texto
+	return abertura + cor + fechamento + texto + fechamento
 }
 
 func ImprimirTodas() {
@@ -65,33 +65,33 @@ func ImprimirTodas() {
 }
 
 func PPreto(texto string) string {
-	return abertura + Preto + fechamento + texto
+	return abertura + Preto + fechamento + texto + fechamento
 }
 
 func PVermelho(texto string) string {
-	return abertura + Vermelho + fechamento + texto
+	return abertura + Vermelho + fechamento + texto + fechamento
 }
 
 func PVerde(texto string) string {
-	return abertura + Verde + fechamento + texto
+	return abertura + Verde + fechamento + texto + fechamento
 }
 
 func PAmarelo(texto string) string {
-	return abertura + Amarelo + fechamento + texto
+	return abertura + Amarelo + fechamento + texto + fechamento
 }
 
 func PAzul(texto string) string {
-	return abertura + Azul + fechamento + texto
+	return abertura + Azul + fechamento + texto + fechamento
 }
 
 func PMagenta(texto string) string {
-	return abertura + Magenta + fechamento + texto
+	return abertura + Magenta + fechamento + texto + fechamento
 }
 
 func PCiano(texto string) string {
-	return abertura + Ciano + fechamento + texto
+	return abertura + Ciano + fechamento + texto + fechamento
 }
 
 func PBranco(texto string) string {
-	return abertura + Branco + fechamento + texto
+	return abertura + Branco + fechamento + texto + fechamento
 }
