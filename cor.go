@@ -1,5 +1,7 @@
 package cor
 
+import "fmt"
+
 // := "\033[<intensidadeCor>;<aparenciaTexto>;<corTexto>;<corFundo>m"
 // fmt.Printf("\033[31mHello, World!\033[0m\n")
 
@@ -54,4 +56,10 @@ const (
 
 func Pintar(texto, cor string) string {
 	return abertura + cor + fechamento + texto
+}
+
+func ImprimirTodas() {
+	for matiz, codigo := range cores {
+		fmt.Println(Pintar(matiz, codigo))
+	}
 }
