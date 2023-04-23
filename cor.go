@@ -51,3 +51,7 @@ const (
 )
 
 // const Nenhum = ""
+
+func Pintar(texto, cor string) string {
+	return abertura + cor + fechamento + texto
+}
