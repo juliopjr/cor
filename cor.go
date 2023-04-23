@@ -63,3 +63,35 @@ func ImprimirTodas() {
 		fmt.Println(Pintar(matiz, codigo))
 	}
 }
+
+func pPreto(texto string) string {
+	return abertura + Preto + fechamento + texto
+}
+
+func pVermelho(texto string) string {
+	return abertura + Vermelho + fechamento + texto
+}
+
+func pVerde(texto string) string {
+	return abertura + Verde + fechamento + texto
+}
+
+func pAmarelo(texto string) string {
+	return abertura + Amarelo + fechamento + texto
+}
+
+func pAzul(texto string) string {
+	return abertura + Azul + fechamento + texto
+}
+
+func pMagenta(texto string) string {
+	return abertura + Magenta + fechamento + texto
+}
+
+func pCiano(texto string) string {
+	return abertura + Ciano + fechamento + texto
+}
+
+func pBranco(texto string) string {
+	return abertura + Branco + fechamento + texto
+}
