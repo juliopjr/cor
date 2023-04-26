@@ -26,23 +26,23 @@ var cores = map[string]string{
 }
 
 const (
-	Preto    = "30"
-	Vermelho = "31"
-	Verde    = "32"
-	Amarelo  = "33"
-	Azul     = "34"
-	Magenta  = "35"
-	Ciano    = "36"
-	Branco   = "37"
+	preto    = "30"
+	vermelho = "31"
+	verde    = "32"
+	amarelo  = "33"
+	azul     = "34"
+	magenta  = "35"
+	ciano    = "36"
+	branco   = "37"
 
-	PretoPastel    = "90"
-	VermelhoPastel = "91"
-	VerdePastel    = "92"
-	AmareloPastel  = "93"
-	AzulPastel     = "94"
-	MagentaPastel  = "95"
-	CianoPastel    = "96"
-	BrancoPastel   = "97"
+	// pretoPastel    = "90"
+	// vermelhoPastel = "91"
+	// verdePastel    = "92"
+	// amareloPastel  = "93"
+	// azulPastel     = "94"
+	// magentaPastel  = "95"
+	// cianoPastel    = "96"
+	// brancoPastel   = "97"
 )
 
 const (
@@ -64,34 +64,34 @@ func ImprimirTodas() {
 	}
 }
 
-func PPreto(texto string) string {
-	return abertura + Preto + fechamento + texto + reseta
+func Preto(texto string) string {
+	return abertura + preto + fechamento + texto + reseta
 }
 
-func PVermelho(texto string) string {
-	return abertura + Vermelho + fechamento + texto + reseta
+func Vermelho(texto string) string {
+	return abertura + vermelho + fechamento + texto + reseta
 }
 
-func PVerde(texto string) string {
-	return abertura + Verde + fechamento + texto + reseta
+func Verde(texto string) string {
+	return abertura + verde + fechamento + texto + reseta
 }
 
-func PAmarelo(texto string) string {
-	return abertura + Amarelo + fechamento + texto + reseta
+func Amarelo(texto string) string {
+	return abertura + amarelo + fechamento + texto + reseta
 }
 
-func PAzul(texto string) string {
-	return abertura + Azul + fechamento + texto + reseta
+func Azul(texto string) string {
+	return abertura + azul + fechamento + texto + reseta
 }
 
-func PMagenta(texto string) string {
-	return abertura + Magenta + fechamento + texto + reseta
+func Magenta(texto string) string {
+	return abertura + magenta + fechamento + texto + reseta
 }
 
-func PCiano(texto string) string {
-	return abertura + Ciano + fechamento + texto + reseta
+func Ciano(texto string) string {
+	return abertura + ciano + fechamento + texto + reseta
 }
 
-func PBranco(texto string) string {
-	return abertura + Branco + fechamento + texto + reseta
+func Branco(texto string) string {
+	return abertura + branco + fechamento + texto + reseta
 }
